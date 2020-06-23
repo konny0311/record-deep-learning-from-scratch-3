@@ -1,5 +1,5 @@
 import numpy as np
-
+ 
 class Function:
     def __call__(self, *inputs):
         xs = [x.data for x in inputs]
